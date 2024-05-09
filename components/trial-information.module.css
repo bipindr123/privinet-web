@@ -1,0 +1,369 @@
+.aGuidedTrial,
+.seamlessIntegration {
+  margin: 0;
+}
+.aGuidedTrialContainer1 {
+  width: 100%;
+}
+.aGuidedTrialContainer {
+  margin: 0;
+  width: 844px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 9;
+}
+.companyInfo,
+.privinet1Icon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.companyInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  box-sizing: border-box;
+}
+.privinet1Icon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contactInformation,
+.contactUsPrompt {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactUsPrompt {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 92px;
+}
+.contactInformation {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 9px 0 8px;
+  box-sizing: border-box;
+}
+.wantToLearn {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 50px;
+}
+.frameChild {
+  align-self: stretch;
+  width: 198px;
+  cursor: pointer;
+}
+.socialIconsInner {
+  align-self: stretch;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.copyrightNotice,
+.socialIcons {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.socialIcons {
+  width: 844px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 55px;
+}
+.copyrightNotice {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-size: 44.5px;
+}
+.frameItem {
+  align-self: stretch;
+  height: 283px;
+  position: relative;
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  display: none;
+}
+.followUs,
+.logoIcon {
+  position: relative;
+  z-index: 1;
+}
+.logoIcon {
+  height: 43px;
+  width: 258.6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  cursor: pointer;
+}
+.followUs {
+  display: inline-block;
+  min-width: 71px;
+}
+.socialIconsChild {
+  align-self: stretch;
+  height: 14.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.socialIcons1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.9px;
+}
+.socialLinks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.emailIconImage {
+  width: 18px;
+  height: 13.5px;
+  position: relative;
+  z-index: 1;
+}
+.emailIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.5px;
+}
+.contactprivinetcom {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contactDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.contactInfo,
+.socialAndContact {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 6px 0 1px;
+  color: #fff;
+}
+.socialAndContact {
+  flex-direction: column;
+  gap: 11px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerBranding,
+.footerNav,
+.socialAndContact {
+  display: flex;
+  align-items: flex-start;
+}
+.footerNav {
+  width: 211px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.footerBranding {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.copyrightIcon,
+.footerContent {
+  align-self: stretch;
+  max-width: 100%;
+}
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.copyrightIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.contact,
+.cookies,
+.privacyPolicy,
+.termsOfServices {
+  position: relative;
+  display: inline-block;
+  min-width: 128px;
+  z-index: 1;
+}
+.contact,
+.cookies,
+.privacyPolicy {
+  min-width: 100px;
+}
+.contact,
+.cookies {
+  min-width: 60px;
+}
+.contact {
+  min-width: 59px;
+  cursor: pointer;
+}
+.legalNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  max-width: 100%;
+}
+.privinetAll {
+  position: relative;
+  z-index: 1;
+}
+.legalLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.copyright,
+.legal,
+.rectangleParent,
+.trialInformation {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.copyright {
+  flex-direction: row;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.legal,
+.rectangleParent,
+.trialInformation {
+  flex-direction: column;
+}
+.legal {
+  gap: 30px;
+  color: #fff;
+}
+.rectangleParent,
+.trialInformation {
+  font-family: "Nirmala UI";
+}
+.rectangleParent {
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  padding: 73px 0 40px;
+  box-sizing: border-box;
+  gap: 49px;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+}
+.trialInformation {
+  gap: 164px;
+  text-align: center;
+  font-size: 72px;
+  color: #fff;
+}
+@media screen and (max-width: 1100px) {
+  .legalLinks {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aGuidedTrialContainer {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .contactUsPrompt {
+    gap: 46px;
+  }
+  .wantToLearn {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .footerBranding,
+  .legalNav {
+    flex-wrap: wrap;
+  }
+  .legalNav {
+    gap: 29px;
+  }
+  .rectangleParent {
+    gap: 24px;
+  }
+  .trialInformation {
+    gap: 82px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aGuidedTrialContainer {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .contactUsPrompt {
+    gap: 23px;
+  }
+  .wantToLearn {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .socialIcons {
+    gap: 27px;
+  }
+  .trialInformation {
+    gap: 41px;
+  }
+}

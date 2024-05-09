@@ -1,0 +1,237 @@
+.gradient {
+  height: 539px;
+  width: 1440px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  display: none;
+  max-width: 100%;
+}
+.introducingSkyyewave {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.04em;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 5;
+}
+.skyyeWaveTitle {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 38px 0;
+  box-sizing: border-box;
+  min-height: 539px;
+  max-width: 100%;
+  z-index: 4;
+}
+.gradient1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 1119px;
+  right: -1440px;
+  bottom: -1119px;
+  left: 1440px;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 52.61%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.priviNetContent,
+.privinetTheVisionary {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.privinetTheVisionary {
+  width: 769px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.priviNetContent {
+  width: 1333px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.featureIconShape {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid #3b8dcb;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.featureIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 10px;
+}
+.keyFeatures {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 3;
+}
+.featureItem,
+.featureList {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.featureItem {
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.featureList {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 22px 0 20px;
+  box-sizing: border-box;
+}
+.efficient,
+.expansiveYet {
+  margin: 0;
+}
+.expansiveYetEfficientContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 45.05px;
+  z-index: 3;
+}
+.skyyewaveEstablishesRobust {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 3;
+}
+.efficiencyFeature {
+  width: 385px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 27px;
+  max-width: 100%;
+}
+.meshFeature,
+.priviNet,
+.skyyeWaveFeatures,
+.skyyeWaveTitleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.meshFeature {
+  flex-direction: row;
+  justify-content: center;
+  gap: 73px;
+  text-align: center;
+  font-size: 40.1px;
+}
+.priviNet,
+.skyyeWaveFeatures,
+.skyyeWaveTitleParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.skyyeWaveFeatures {
+  gap: 93px;
+  text-align: left;
+  font-size: 72px;
+}
+.priviNet,
+.skyyeWaveTitleParent {
+  box-sizing: border-box;
+}
+.priviNet {
+  padding: 381px 40px 0 42px;
+  position: relative;
+  gap: 193px;
+  margin-top: -377px;
+  font-size: 27.5px;
+}
+.skyyeWaveTitleParent {
+  padding: 0 0 13px;
+  text-align: center;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1350px) {
+  .meshFeature {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .introducingSkyyewave,
+  .keyFeatures {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .featureItem {
+    flex-wrap: wrap;
+  }
+  .expansiveYetEfficientContainer {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .meshFeature {
+    gap: 36px;
+  }
+  .skyyeWaveFeatures {
+    gap: 46px;
+  }
+  .priviNet {
+    gap: 96px;
+    padding-left: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .introducingSkyyewave {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .privinetTheVisionary {
+    font-size: 22px;
+  }
+  .keyFeatures {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .expansiveYetEfficientContainer {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .meshFeature {
+    gap: 18px;
+  }
+  .skyyeWaveFeatures {
+    gap: 23px;
+  }
+  .priviNet {
+    gap: 48px;
+  }
+}

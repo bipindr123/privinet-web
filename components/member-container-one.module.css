@@ -1,0 +1,48 @@
+.memberContainerOne,
+.memberContainerTwo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.memberContainerTwo {
+  flex: 1;
+  gap: 64px;
+  min-width: 567px;
+}
+.memberContainerOne {
+  align-self: stretch;
+  gap: 81px;
+  text-align: left;
+  font-size: 27.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1200px) {
+  .memberContainerOne {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .memberContainerTwo {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .memberContainerTwo {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .memberContainerOne {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .memberContainerTwo {
+    gap: 16px;
+  }
+  .memberContainerOne {
+    gap: 20px;
+  }
+}

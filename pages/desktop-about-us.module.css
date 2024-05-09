@@ -1,0 +1,458 @@
+.desktopAboutUsChild {
+  align-self: stretch;
+  height: 1749px;
+  position: relative;
+  background-color: #000016;
+  display: none;
+}
+.heroDetails {
+  position: absolute;
+  top: 2422.1px;
+  left: 342.9px;
+  display: inline-block;
+  min-width: 34px;
+}
+.heroDetails1,
+.heroDetails2,
+.heroDetails3 {
+  position: absolute;
+  top: 2535.9px;
+  left: 359.7px;
+  display: inline-block;
+  min-width: 17px;
+}
+.heroDetails2,
+.heroDetails3 {
+  top: 2308.3px;
+  left: 326px;
+  min-width: 51px;
+}
+.heroDetails3 {
+  top: 2194.5px;
+}
+.revenueMillons {
+  position: absolute;
+  top: 2397.1px;
+  left: 249.6px;
+  font-size: 19.4px;
+  transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+.heroDetails4 {
+  position: absolute;
+  top: 2080.7px;
+  left: 326px;
+  display: inline-block;
+  min-width: 51px;
+}
+.linevideoEzgif1Icon {
+  /* position: relative; */
+  height: 100px;
+  top: 100px;
+  bottom: 0;
+  left: 50px;
+  max-height: 100%;
+  width: 603px;
+  object-fit: cover;
+  z-index: 4;
+}
+.chartDataPointOne {
+  position: absolute;
+  top: 69.1px;
+  left: 0.1px;
+  width: 0.8px;
+  height: 470.4px;
+}
+.chartDataPointTwo {
+  position: absolute;
+  top: 539.7px;
+  left: 0;
+  width: 651.5px;
+  height: 0.8px;
+  z-index: 5;
+}
+.growthChart {
+  position: absolute;
+  top: 2017px;
+  left: 420.6px;
+  width: 653px;
+  height: 573px;
+}
+.heroContainer {
+  align-self: stretch;
+  min-height: 1163px;
+  max-width: 100%;
+  position: relative;
+  text-align: right;
+  font-size: 31.4px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+.meetOurVisionary {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.teamHeading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 43px;
+}
+.ledByA {
+  align-self: stretch;
+  position: relative;
+  font-size: 27.5px;
+  text-align: center;
+  z-index: 1;
+}
+.teamContent {
+  width: 1023px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  max-width: 100%;
+}
+.teamContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+  position: relative;
+  width: 100%;
+  padding: 50px;
+}
+.memberList,
+.teamContentWrapper,
+.teamMembers {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.memberList {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 76.2px;
+}
+.teamMembers {
+  width: 100%;
+  padding: 100px;
+  flex-direction: row;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.frameChild {
+  align-self: stretch;
+  height: 283px;
+  position: relative;
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  display: none;
+}
+.followUs1,
+.logoIcon {
+  position: relative;
+  z-index: 1;
+}
+.logoIcon {
+  height: 43px;
+  width: 258.6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  cursor: pointer;
+}
+.followUs1 {
+  display: inline-block;
+  min-width: 71px;
+}
+.socialMediaIconsChild {
+  align-self: stretch;
+  height: 14.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.socialMediaIcons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.9px;
+}
+.followUsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.contactIcon {
+  width: 18px;
+  height: 13.5px;
+  position: relative;
+  z-index: 1;
+}
+.contactIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.5px;
+}
+.contactprivinetcom {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contactDetails {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.followUs,
+.footerContact,
+.footerSocialMediaContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerContact {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 6px 0 1px;
+  color: #fff;
+}
+.followUs,
+.footerSocialMediaContainer {
+  flex-direction: column;
+}
+.followUs {
+  align-self: stretch;
+  gap: 11px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerSocialMediaContainer {
+  width: 211px;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.footerContent,
+.footerLogoAndSocialMedia {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footerLogoAndSocialMedia {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footerContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.designElementIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.contact,
+.cookies,
+.privacyPolicy,
+.termsOfServices {
+  position: relative;
+  display: inline-block;
+  min-width: 128px;
+  z-index: 1;
+}
+.contact,
+.cookies,
+.privacyPolicy {
+  min-width: 100px;
+}
+.contact,
+.cookies {
+  min-width: 60px;
+}
+.contact {
+  min-width: 59px;
+  cursor: pointer;
+}
+.legalLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  max-width: 100%;
+}
+.privinetAll {
+  position: relative;
+  z-index: 1;
+}
+.legalLinksParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.copyright,
+.legalAndCopyright {
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.legalAndCopyright {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.copyright {
+  gap: 30px;
+  color: #fff;
+}
+.copyright,
+.desktopAboutUs,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  align-items: flex-start;
+  padding: 73px 0 40px;
+  box-sizing: border-box;
+  gap: 49px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+  font-family: "Nirmala UI";
+}
+.desktopAboutUs {
+  width: 100%;
+  position: relative;
+  background-color: #000016;
+  overflow: hidden;
+  align-items: flex-end;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .teamContentWrapper {
+    padding-right: 49px;
+    box-sizing: border-box;
+  }
+  .teamMembers {
+    padding-bottom: 94px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .heroDetails,
+  .heroDetails1,
+  .heroDetails2,
+  .heroDetails3,
+  .heroDetails4 {
+    font-size: 25px;
+  }
+  .meetOurVisionary {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .teamHeading {
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+  .legalLinksParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroContainer {
+    height: auto;
+    min-height: 2605.6;
+  }
+  .teamContent {
+    gap: 20px;
+  }
+  .teamContentWrapper {
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .memberList {
+    gap: 38px;
+  }
+  .teamMembers {
+    padding-bottom: 61px;
+    box-sizing: border-box;
+  }
+  .footerLogoAndSocialMedia,
+  .legalLinks {
+    flex-wrap: wrap;
+  }
+  .legalLinks {
+    gap: 29px;
+  }
+  .rectangleParent {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heroDetails,
+  .heroDetails1,
+  .heroDetails2,
+  .heroDetails3,
+  .heroDetails4 {
+    font-size: 19px;
+  }
+  .meetOurVisionary {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .ledByA {
+    font-size: 22px;
+  }
+  .teamContentWrapper {
+    padding-bottom: 86px;
+    box-sizing: border-box;
+  }
+  .memberList {
+    gap: 19px;
+  }
+}

@@ -1,0 +1,92 @@
+.portraitSuccessfulBusinessmaIcon {
+  width: 265px;
+  height: 262px;
+  position: relative;
+  border-radius: 131.02px;
+  object-fit: contain;
+  z-index: 1;
+}
+.bradListermann,
+.founderAndCeo {
+  position: relative;
+  z-index: 1;
+}
+.founderAndCeo {
+  font-size: 22.5px;
+}
+.nameDetailsOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.theVisionaryArchitect {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 1;
+}
+.memberDividerOne,
+.memberNameOne {
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.memberNameOne {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.memberDividerOne {
+  width: 23px;
+  height: 22.8px;
+  position: relative;
+  z-index: 1;
+}
+.memberCardOne,
+.memberInfoOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.memberInfoOne {
+  align-self: stretch;
+  gap: 66px;
+}
+.memberCardOne {
+  width: 409px;
+  gap: 41px;
+  min-width: 409px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 27.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1200px) {
+  .memberCardOne {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .memberCardOne {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bradListermann {
+    font-size: 22px;
+  }
+  .founderAndCeo {
+    font-size: 18px;
+  }
+  .memberInfoOne {
+    gap: 33px;
+  }
+  .memberCardOne {
+    gap: 20px;
+  }
+}

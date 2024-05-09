@@ -1,0 +1,207 @@
+.gradient {
+  width: 100%;
+  height: calc(100% - 12px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 12px;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  z-index: 6;
+}
+.aboutUs,
+.application,
+.contact,
+.technology {
+  position: relative;
+  display: inline-block;
+  z-index: 7;
+}
+.aboutUs {
+  min-width: 68px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.application,
+.contact,
+.technology {
+  min-width: 86px;
+}
+.application {
+  color: #3b8dcb;
+}
+.contact,
+.technology {
+  cursor: pointer;
+}
+.contact {
+  min-width: 59px;
+}
+.headerSlogan {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 47px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 17px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+.followUs {
+  position: relative;
+  display: inline-block;
+  min-width: 71px;
+  white-space: nowrap;
+  z-index: 7;
+}
+.headerSloganParent {
+  width: 745px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
+}
+.backvideo1Ezgif1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 4;
+}
+.frameChild,
+.logoIcon {
+  position: absolute;
+  top: 40px;
+  left: 1472.9px;
+  width: 115px;
+  height: 14.1px;
+  z-index: 7;
+}
+.logoIcon {
+  top: 26px;
+  left: 227.9px;
+  width: 258.6px;
+  height: 43px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.backvideo1Ezgif1Parent {
+  width: 1817.8px;
+  height: calc(100% - 12px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 12px;
+  left: -188.9px;
+}
+.connectivityForRemote {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 7;
+}
+.privinetsProprietaryLpwanContainer1 {
+  width: 100%;
+}
+.privinetsProprietaryLpwanContainer {
+  width: 757px;
+  position: relative;
+  font-size: 27.5px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 7;
+}
+.connectivityForRemoteChalParent,
+.mainContainer,
+.mainContainerInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.connectivityForRemoteChalParent {
+  width: 768px;
+  flex-direction: column;
+  gap: 61px;
+}
+.mainContainer,
+.mainContainerInner {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: 72px;
+  color: #fff;
+}
+.mainContainer {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 34px 167px 372px 41px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 220px;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1100px) {
+  .mainContainer {
+    padding-top: 22px;
+    padding-bottom: 242px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .headerSlogan {
+    display: none;
+  }
+  .headerSloganParent {
+    width: 305px;
+  }
+  .connectivityForRemote {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .connectivityForRemoteChalParent {
+    gap: 30px;
+  }
+  .mainContainer {
+    gap: 110px;
+    padding-top: 20px;
+    padding-right: 83px;
+    padding-bottom: 157px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .headerSlogan {
+    gap: 23px;
+  }
+  .connectivityForRemote {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .privinetsProprietaryLpwanContainer {
+    font-size: 22px;
+  }
+  .connectivityForRemoteChalParent {
+    gap: 15px;
+  }
+  .mainContainer {
+    gap: 55px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

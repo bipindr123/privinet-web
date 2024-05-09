@@ -1,0 +1,119 @@
+.aiPowered {
+  position: relative;
+  line-height: 80px;
+  z-index: 2;
+}
+.aITitle,
+.unlockThePower {
+  display: flex;
+  max-width: 100%;
+}
+.aITitle {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 59px;
+  box-sizing: border-box;
+}
+.unlockThePower {
+  margin: 0;
+  width: 681px;
+  position: relative;
+  font-size: 72px;
+  letter-spacing: -0.04em;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  align-items: center;
+  z-index: 2;
+}
+.gradient {
+  position: absolute;
+  top: 427px;
+  left: 1440px;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  width: 1440px;
+  height: 539px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.aILogoShape {
+  position: absolute;
+  top: 40px;
+  left: 59px;
+  border-radius: 50%;
+  border: 0 solid #3b8dcb;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+}
+.logoSkyye1 {
+  position: absolute;
+  top: 232px;
+  left: 807px;
+  width: 559px;
+  height: 208px;
+  object-fit: contain;
+  z-index: 3;
+}
+.aILogo {
+  width: 1440px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -18px;
+  bottom: 0;
+}
+.aITitleParent {
+  width: 1422px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 20px 159px 59px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 26px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 44.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 800px) {
+  .aiPowered,
+  .unlockThePower {
+    font-size: 36px;
+    line-height: 64px;
+  }
+  .unlockThePower {
+    font-size: 58px;
+  }
+  .aITitleParent {
+    padding-left: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aiPowered {
+    font-size: 27px;
+    line-height: 48px;
+  }
+  .aITitle {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .unlockThePower {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .aITitleParent {
+    padding-top: 20px;
+    padding-bottom: 103px;
+    box-sizing: border-box;
+  }
+}

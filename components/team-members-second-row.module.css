@@ -1,0 +1,111 @@
+.portraitSuccessfulBusinessmaIcon {
+  width: 265px;
+  height: 262px;
+  position: relative;
+  border-radius: 131.02px;
+  object-fit: contain;
+  z-index: 1;
+}
+.aiScientistAnd,
+.hritikRao {
+  position: relative;
+  z-index: 1;
+}
+.aiScientistAnd {
+  align-self: stretch;
+  font-size: 22.5px;
+  letter-spacing: -0.05em;
+  line-height: 27px;
+}
+.employeeNameRole {
+  width: 307px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.hritiksGroundbreakingWork {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 1;
+}
+.employeeDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.employeeSocialMediaLink {
+  width: 23px;
+  height: 22.8px;
+  position: relative;
+  z-index: 1;
+}
+.memberInfoFour {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 42px;
+}
+.memberContainerFour,
+.teamMembersSecondRow {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.memberContainerFour {
+  flex: 0.9715;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+  gap: 36px;
+  min-width: 274px;
+}
+.teamMembersSecondRow {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 69px;
+  text-align: left;
+  font-size: 27.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1200px) {
+  .memberContainerFour {
+    flex: 1;
+  }
+  .teamMembersSecondRow {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .teamMembersSecondRow {
+    gap: 34px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hritikRao {
+    font-size: 22px;
+  }
+  .aiScientistAnd {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .memberInfoFour {
+    gap: 21px;
+  }
+  .memberContainerFour {
+    gap: 18px;
+  }
+  .teamMembersSecondRow {
+    gap: 17px;
+  }
+}

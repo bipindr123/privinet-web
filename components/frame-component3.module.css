@@ -1,0 +1,89 @@
+.joinOurJourney {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.stepIntoThe {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.stepIntoTheFutureWithPrivWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 27.5px;
+}
+.joinUsCTAButtonChild {
+  align-self: stretch;
+  width: 198px;
+  cursor: pointer;
+}
+.joinUsCTAButton {
+  align-self: stretch;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  box-sizing: border-box;
+}
+.desktopAboutUsInner,
+.joinOurJourneyParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.joinOurJourneyParent {
+  width: 695px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 43px;
+}
+.desktopAboutUsInner {
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 145px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1050px) {
+  .joinOurJourney {
+    font-size: 58px;
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .joinOurJourneyParent {
+    gap: 21px;
+  }
+  .desktopAboutUsInner {
+    padding-bottom: 94px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinOurJourney {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .stepIntoThe {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,259 @@
+.background1 {
+  align-self: stretch;
+  width: 1440px;
+  position: relative;
+  background-color: #000016;
+  display: none;
+  max-width: 100%;
+}
+.backgroundvideo2Ezgif1Icon {
+  position: absolute;
+  top: 11px;
+  left: -150px;
+  width: 1798.2px;
+  height: 1013px;
+  object-fit: cover;
+  z-index: 1;
+}
+.gradient {
+  position: absolute;
+  top: 1024px;
+  left: 1440px;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 91.37%);
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.ourMissionIs,
+.unlockingPotentialThrough {
+  position: absolute;
+  top: 538px;
+  left: 40px;
+  font-size: 27.5px;
+  display: flex;
+  align-items: center;
+  width: 690px;
+  z-index: 5;
+}
+.unlockingPotentialThrough {
+  margin: 0;
+  top: 271px;
+  left: 35px;
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  width: 695px;
+}
+.applicationsList {
+  position: absolute;
+  top: 243px;
+  left: 820px;
+  border-radius: 50%;
+  background-color: #3b8dcb;
+  width: 26px;
+  height: 26px;
+  z-index: 5;
+}
+.trafficOptimizationResource {
+  position: absolute;
+  top: 301px;
+  left: 863px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  width: 518px;
+  z-index: 5;
+}
+.ourMission,
+.smartCities {
+  position: relative;
+  top: 231px;
+  left: 863px;
+  line-height: 50px;
+  z-index: 5;
+}
+.ourMission {
+  top: 139px;
+  left: 99px;
+  line-height: 80px;
+}
+.applicationOptionsChild,
+.applicationsList1 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 5;
+}
+.applicationOptionsChild {
+  top: 164px;
+  left: 40px;
+  border: 0 solid #3b8dcb;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+}
+.applicationsList1 {
+  top: 442px;
+  left: 820px;
+  background-color: #3b8dcb;
+  width: 26px;
+  height: 26px;
+}
+.dataDrivenIrrigationCrop {
+  position: absolute;
+  top: 497px;
+  left: 863px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  width: 481px;
+  z-index: 5;
+}
+.precisionAgriculture {
+  position: relative;
+  top: 280px;
+  left: 863px;
+  line-height: 50px;
+  z-index: 5;
+}
+.applicationsList2 {
+  position: absolute;
+  top: 642px;
+  left: 820px;
+  border-radius: 50%;
+  background-color: #3b8dcb;
+  width: 26px;
+  height: 26px;
+  z-index: 5;
+}
+.realTimeAssetTracking {
+  position: absolute;
+  top: 750px;
+  left: 863px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  width: 481px;
+  z-index: 5;
+}
+.gradient1,
+.spacerElement {
+  position: absolute;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+}
+.gradient1 {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.spacerElement {
+  top: 485px;
+  width: 1440px;
+  height: 539px;
+  z-index: 3;
+}
+.logisticsSupply {
+  position: absolute;
+  top: 626px;
+  left: 863px;
+  line-height: 50px;
+  z-index: 5;
+}
+.applicationOptions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.applicationBackground {
+  height: 1024px;
+  width: 1440px;
+  position: relative;
+  max-width: 100%;
+}
+
+
+.gradientbottom {
+  position: absolute;
+  top: 11px;
+  left: -150px;
+  width: 1798.2px;
+  height: 1013px;
+  object-fit: cover;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0) 39.31%, #000016 96.41%);
+} /* Gradient */
+
+.gradienttop {
+  position: absolute;
+  top: 11px;
+  left: -150px;
+  width: 1798.2px;
+  height: 1013px;
+  object-fit: cover;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0) 39.31%, #000016 96.41%);
+  transform: rotate(-180deg);
+} /* Gradient */
+
+.background {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 150px;
+  box-sizing: border-box;
+  z-index: 4;
+  text-align: left;
+  font-size: 44.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1050px) {
+  .unlockingPotentialThrough {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .ourMission,
+  .smartCities {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .ourMission {
+    line-height: 64px;
+  }
+  .logisticsSupply,
+  .precisionAgriculture {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourMissionIs {
+    font-size: 22px;
+  }
+  .unlockingPotentialThrough {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .ourMission,
+  .smartCities {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .ourMission {
+    line-height: 48px;
+  }
+  .logisticsSupply,
+  .precisionAgriculture {
+    font-size: 27px;
+    line-height: 30px;
+  }
+}

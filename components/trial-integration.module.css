@@ -1,0 +1,125 @@
+.backgroundvideo2Ezgif1Icon {
+  height: 1013px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.gradient {
+  height: 100%;
+  width: 1498px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1024px;
+  bottom: -1024px;
+  left: calc(50% + 749px);
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 81.9%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.dataIsPower {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 9;
+}
+.contactIcon {
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 52px;
+  box-sizing: border-box;
+  min-width: 768px;
+  min-height: 212px;
+  max-width: 100%;
+}
+.smartCities {
+  position: relative;
+  line-height: 50px;
+  z-index: 9;
+}
+.realTimeTrafficManagement {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 9;
+}
+.footerLogoBlock {
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  min-width: 319px;
+  font-size: 44.5px;
+}
+.contactUsBlock,
+.trialIntegration {
+  margin: 0 !important;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactUsBlock {
+  width: 1440px;
+  top: -11px;
+  left: 150px;
+  align-items: flex-end;
+  padding: 61px 41px 751px;
+  box-sizing: border-box;
+  gap: 160px;
+}
+.trialIntegration {
+  width: 100%;
+  top: 11px;
+  left: 0;
+  align-items: flex-start;
+  text-align: left;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1275px) {
+  .contactIcon {
+    flex: 1;
+    min-width: 100%;
+  }
+  .footerLogoBlock {
+    flex: 1;
+  }
+  .contactUsBlock {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .dataIsPower {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .smartCities {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dataIsPower {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .smartCities {
+    font-size: 27px;
+    line-height: 30px;
+  }
+}

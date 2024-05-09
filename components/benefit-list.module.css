@@ -1,0 +1,115 @@
+.benefits {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.benefitTitleArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 101px;
+}
+.locationWithoutLimits,
+.trackValuableAssets {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.locationWithoutLimits {
+  line-height: 45.05px;
+}
+.trackValuableAssets {
+  font-size: 17px;
+}
+.locationBenefit {
+  width: 385px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 27px;
+}
+.benefitDetails,
+.benefitItem,
+.benefitList,
+.locationBenefit {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.benefitDetails {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  font-size: 40.1px;
+}
+.benefitItem,
+.benefitList {
+  justify-content: flex-start;
+}
+.benefitItem {
+  flex: 1;
+  flex-direction: column;
+  gap: 93px;
+}
+.benefitList {
+  width: 1425px;
+  flex-direction: row;
+  padding: 0 42px 66px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1350px) {
+  .benefitDetails {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .benefits {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .locationWithoutLimits {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .benefitItem {
+    gap: 46px;
+  }
+  .benefitList {
+    padding-left: 21px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .benefits {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .benefitTitleArea {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .locationWithoutLimits {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .benefitItem {
+    gap: 23px;
+  }
+  .benefitList {
+    padding-bottom: 43px;
+    box-sizing: border-box;
+  }
+}

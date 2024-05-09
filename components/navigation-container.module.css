@@ -1,0 +1,363 @@
+
+.logoIcon {
+  height: 43px;
+  width: 258.6px;
+  position: relative;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 3;
+}
+.aboutUs {
+  height: 23px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.aboutUs,
+.application,
+.contact,
+.technology {
+  position: relative;
+  white-space: nowrap;
+  z-index: 3;
+}
+.application,
+.technology {
+  cursor: pointer;
+}
+.contact {
+  height: 23px;
+  color: #3b8dcb;
+  display: flex;
+  align-items: center;
+}
+.navigationItems,
+.navigationLinks {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.navigationLinks {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 17px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+.navigationItems {
+  width: 440px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.followUs {
+  height: 23px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 3;
+}
+.socialIconsChild {
+  align-self: stretch;
+  height: 14.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.socialIcons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.9px;
+}
+.socialContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.navbar,
+.socialContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.socialContainerWrapper {
+  width: 197px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px 0 0;
+  box-sizing: border-box;
+}
+.navbar {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+  z-index: 99;
+  position: relative;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+  font-family: "Nirmala UI";
+  border: #000016;
+  border-width: 10px;
+}
+.getInTouch {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  z-index: 3;
+}
+.pleaseFillOut {
+  align-self: stretch;
+  position: relative;
+  font-size: 27.5px;
+  z-index: 3;
+}
+.getInTouchParent {
+  width: 653px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px;
+  max-width: 100%;
+}
+.iconSet {
+  height: 60px;
+  width: 524px;
+  position: absolute;
+  margin: 0 !important;
+  right: -376.9px;
+  bottom: -48px;
+  z-index: 3;
+}
+.fullName,
+.iconSetParent {
+  display: flex;
+  position: relative;
+}
+.fullName {
+  height: 31px;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 4;
+}
+.iconSetParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  height: 61px;
+  width: 524px;
+  position: absolute;
+  margin: 0 !important;
+  right: -430.8px;
+  bottom: -48.4px;
+  z-index: 3;
+}
+.email,
+.vectorParent {
+  display: flex;
+  position: relative;
+}
+.email {
+  height: 31px;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 4;
+}
+.vectorParent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon1 {
+  height: 61px;
+  width: 524px;
+  position: absolute;
+  margin: 0 !important;
+  right: -421.1px;
+  bottom: -48.4px;
+  z-index: 3;
+}
+.phone,
+.vectorGroup {
+  display: flex;
+  position: relative;
+}
+.phone {
+  height: 31px;
+  align-items: center;
+  white-space: nowrap;
+  z-index: 4;
+}
+.vectorGroup {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon2 {
+  height: 142px;
+  width: 524px;
+  position: absolute;
+  margin: 0 !important;
+  right: -406px;
+  bottom: -129.8px;
+  z-index: 3;
+}
+.message {
+  position: relative;
+  white-space: nowrap;
+  z-index: 4;
+}
+.formFields,
+.vectorContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorContainer {
+  flex-direction: row;
+  position: relative;
+}
+.formFields {
+  flex-direction: column;
+  gap: 84.7px;
+  font-size: 23.2px;
+}
+.heroContent,
+.introduction {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.introduction {
+  width: 902.1px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.heroContent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.heroContainerChild {
+  width: 198px;
+  height: 52px;
+  z-index: 3;
+}
+.heroContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 166px;
+  max-width: 100%;
+}
+.heroContainerWrapper,
+.navigationContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.heroContainerWrapper {
+  width: 957px;
+  flex-direction: row;
+  padding: 0 2px;
+}
+.navigationContainer {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  flex-direction: column;
+  padding: 26px 39px 91px;
+  gap: 184px;
+  z-index: 2;
+  text-align: left;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 975px) {
+  .heroContainer {
+    gap: 83px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .navigationItems {
+    display: none;
+  }
+  .getInTouch {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .introduction {
+    flex-wrap: wrap;
+  }
+  .navigationContainer {
+    gap: 92px;
+    padding-top: 20px;
+    padding-bottom: 59px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .getInTouchParent {
+    gap: 15px;
+  }
+  .heroContainer {
+    gap: 41px;
+  }
+  .navigationContainer {
+    padding-bottom: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigationLinks {
+    display: none;
+  }
+  .navigationItems {
+    width: 0;
+  }
+  .getInTouch {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .pleaseFillOut {
+    font-size: 22px;
+  }
+  .email,
+  .fullName,
+  .message,
+  .phone {
+    font-size: 19px;
+  }
+  .navigationContainer {
+    gap: 46px;
+  }
+}

@@ -1,0 +1,251 @@
+.skyyeAi {
+  position: relative;
+  line-height: 80px;
+  z-index: 7;
+}
+.skyyeAiWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 61px;
+}
+.gradient {
+  width: 1440px;
+  height: 732px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  display: none;
+  max-width: 100%;
+}
+.intelligentConnectivityLimiContainer1 {
+  width: 100%;
+}
+.intelligentConnectivityLimiContainer {
+  width: 709px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 8;
+}
+.dynamic,
+.optimization {
+  margin: 0;
+}
+.dynamicOptimization {
+  position: relative;
+  line-height: 50px;
+  z-index: 8;
+}
+.skyyeAiContinuously {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 8;
+}
+.dynamicOptimizationBlock {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.dynamicOptimizationBlockWrapper {
+  width: 329px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 10px 17px 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.proactiveIntelligenceIcon {
+  width: 0;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 8;
+}
+.dynamicOptimizationIcon {
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px 0 0;
+  box-sizing: border-box;
+}
+.intelligence,
+.proactive {
+  margin: 0;
+}
+.proactiveIntelligence {
+  position: relative;
+  line-height: 50px;
+  z-index: 8;
+}
+.predictiveAlgorithmsAnticipa {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 8;
+}
+.proactiveIntelligenceBlock,
+.proactiveIntelligenceTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.proactiveIntelligenceTitle {
+  align-self: stretch;
+  gap: 9px;
+}
+.proactiveIntelligenceBlock {
+  width: 329px;
+  padding: 0 0 40px;
+  box-sizing: border-box;
+  min-height: 218px;
+  max-width: 100%;
+}
+.limitlessAdaptabilityTitle {
+  width: 0;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 8;
+}
+.limitlessAdaptabilityBlock {
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px 0 0;
+  box-sizing: border-box;
+}
+.adaptability,
+.limitless {
+  margin: 0;
+}
+.limitlessAdaptability {
+  position: relative;
+  line-height: 50px;
+  z-index: 8;
+}
+.skyyeAisSelfLearning {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 8;
+}
+.backgroundVideo,
+.limitlessAdaptabilityDescrip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backgroundVideo {
+  align-self: stretch;
+  gap: 9px;
+}
+.limitlessAdaptabilityDescrip {
+  height: 218px;
+  width: 319px;
+}
+.frameParent,
+.gradientParent,
+.mainContainer {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 44.5px;
+}
+.gradientParent,
+.mainContainer {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.gradientParent {
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  align-items: flex-end;
+  padding: 12px 61px 287px 56px;
+  box-sizing: border-box;
+  gap: 97px;
+  z-index: 7;
+  text-align: right;
+  font-size: 27.5px;
+}
+.mainContainer {
+  align-items: flex-start;
+  gap: 224px;
+  text-align: left;
+  font-size: 44.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1275px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .skyyeAi {
+    font-size: 36px;
+    line-height: 64px;
+  }
+  .dynamicOptimization,
+  .limitlessAdaptability,
+  .proactiveIntelligence {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .gradientParent {
+    gap: 48px;
+    padding: 20px 30px 187px 28px;
+    box-sizing: border-box;
+  }
+  .mainContainer {
+    gap: 112px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skyyeAi {
+    font-size: 27px;
+    line-height: 48px;
+  }
+  .skyyeAiWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .intelligentConnectivityLimiContainer {
+    font-size: 22px;
+  }
+  .dynamicOptimization,
+  .limitlessAdaptability,
+  .proactiveIntelligence {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .gradientParent {
+    gap: 24px;
+  }
+  .mainContainer {
+    gap: 56px;
+  }
+}

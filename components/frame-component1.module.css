@@ -1,0 +1,121 @@
+.logoIcon {
+  height: 43px;
+  width: 258.6px;
+  object-fit: contain;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.followUs,
+.frameChild,
+.logoIcon {
+  position: relative;
+  z-index: 1;
+}
+.followUs {
+  display: inline-block;
+  min-width: 71px;
+}
+.frameChild {
+  align-self: stretch;
+  height: 14.1px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.9px;
+}
+.followUsParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.emailImageIcon {
+  width: 18px;
+  height: 13.5px;
+  position: relative;
+  z-index: 1;
+}
+.emailImageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.5px;
+}
+.contactprivinetcom {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.frameContainer,
+.frameParent,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 6px 0 1px;
+  color: #fff;
+}
+.frameContainer,
+.frameParent {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 11px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.frameContainer {
+  width: 211px;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.frameWrapper,
+.logoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.logoParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 750px) {
+  .logoParent {
+    flex-wrap: wrap;
+  }
+}

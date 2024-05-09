@@ -1,0 +1,206 @@
+.backgroundVideoIcon {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  width: 1570px;
+  height: 901px;
+  object-fit: cover;
+}
+.gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 1191px;
+  right: -1440px;
+  bottom: -1191px;
+  left: 1440px;
+  background: linear-gradient(179.76deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.circleShape {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid #3b8dcb;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.circleIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 15px;
+}
+.revenueProjections {
+  position: relative;
+  line-height: 80px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.revenueProjectionCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 19px;
+  max-width: 100%;
+}
+.poisedForExponential {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: right;
+  z-index: 2;
+}
+.revenueProjectionCardParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 40px;
+  max-width: 100%;
+}
+.heroContentArea {
+  width: 807px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 56px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gradient1 {
+  width: 1440px;
+  height: 622px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  display: none;
+  max-width: 100%;
+}
+.asBusinessesIncreasingly {
+  width: 690px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.marketGrowthCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.revenueGraphicProjection {
+  position: relative;
+  font-size: 44.5px;
+  line-height: 80px;
+  text-align: left;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 5;
+}
+.gradientGroup,
+.gradientParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gradientGroup {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  align-items: flex-start;
+  padding: 46px 51px 0 450px;
+  gap: 348px;
+  z-index: 2;
+  text-align: right;
+  font-size: 27.5px;
+}
+.gradientParent {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  width: 1440px;
+  align-items: flex-end;
+  padding: 277px 0 0;
+  gap: 12px;
+}
+.backgroundVideoParent {
+  position: absolute;
+  top: 866px;
+  left: -65px;
+  width: 1570px;
+  height: 1191px;
+  text-align: left;
+  font-size: 44.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1050px) {
+  .revenueProjections {
+    font-size: 36px;
+    line-height: 64px;
+  }
+  .poisedForExponential {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .revenueGraphicProjection {
+    font-size: 36px;
+    line-height: 64px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .revenueProjectionCard {
+    flex-wrap: wrap;
+  }
+  .backgroundVideoParent {
+    height: auto;
+    min-height: 1191;
+  }
+}
+@media screen and (max-width: 450px) {
+  .revenueProjections {
+    font-size: 27px;
+    line-height: 48px;
+  }
+  .poisedForExponential {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .asBusinessesIncreasingly {
+    font-size: 22px;
+  }
+  .revenueGraphicProjection {
+    font-size: 27px;
+    line-height: 48px;
+  }
+}
+
+.linevideoEzgif1Icon
+{
+  max-height: 600px;
+  position: absolute;
+  padding: 100px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  left: -130px;
+}

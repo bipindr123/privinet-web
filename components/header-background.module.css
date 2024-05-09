@@ -1,0 +1,229 @@
+.blackTranslucid,
+.gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.blackTranslucid {
+  background-color: rgba(0, 0, 22, 0.55);
+  z-index: 6;
+}
+.gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  z-index: 7;
+}
+.aboutUs,
+.application,
+.contact,
+.technology {
+  position: relative;
+  display: inline-block;
+  z-index: 8;
+}
+.aboutUs {
+  color: #3b8dcb;
+  min-width: 68px;
+  white-space: nowrap;
+}
+.application,
+.contact,
+.technology {
+  min-width: 86px;
+  cursor: pointer;
+}
+.contact {
+  min-width: 59px;
+}
+.navigationMenu {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 47px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 17px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+.followUs {
+  position: relative;
+  display: inline-block;
+  min-width: 71px;
+  white-space: nowrap;
+  z-index: 8;
+}
+.headerContent,
+.headerContentInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.headerContentInner {
+  margin: 0;
+  width: 745px;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+  font-family: "Nirmala UI";
+}
+.headerContent {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 0 194px;
+  box-sizing: border-box;
+}
+
+.center
+{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pioneeringDataDrivenConnect {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 8;
+
+}
+.headerSlogan {
+  width: 822px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 27px;
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.backvideo1Ezgif1Icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -188.9px;
+  max-height: 100%;
+  width: 1817.8px;
+  object-fit: cover;
+  z-index: 5;
+}
+.headerVideoChild,
+.logoIcon {
+  position: absolute;
+  top: 40px;
+  left: 1284px;
+  width: 115px;
+  height: 14.1px;
+  z-index: 8;
+}
+.logoIcon {
+  top: 26px;
+  left: 39px;
+  width: 258.6px;
+  height: 43px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.headerVideo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.atPrivinetWe,
+.headerBackground {
+  display: flex;
+  position: relative;
+  max-width: 100%;
+}
+.atPrivinetWe {
+  width: 811px;
+  font-size: 27.5px;
+  align-items: center;
+  justify-content: center;
+  z-index: 8;
+  position: relative;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerBackground {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 34px 41px 278px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 42px;
+  min-height: 1163px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1050px) {
+  .pioneeringDataDrivenConnect {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .headerBackground {
+    padding-top: 22px;
+    padding-bottom: 162px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .headerContentInner {
+    display: none;
+  }
+  .headerBackground {
+    gap: 15px;
+    padding: 20px 83px 105px 154px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigationMenu {
+    gap: 23px;
+  }
+  .pioneeringDataDrivenConnect {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .atPrivinetWe {
+    font-size: 22px;
+  }
+  .headerBackground {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

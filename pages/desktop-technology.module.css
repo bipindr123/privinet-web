@@ -1,0 +1,443 @@
+.desktopTechnologyChild {
+  align-self: stretch;
+  height: 1837px;
+  position: relative;
+  background-color: #000016;
+  display: none;
+  z-index: 0;
+}
+.backroundvideotech2Ezgif1Icon {
+  width: 1130.8px;
+  height: 637px;
+  position: absolute;
+  margin: 0 !important;
+  top: 1039px;
+  right: -188.8px;
+  object-fit: cover;
+}
+.blackTranslucid {
+  align-self: stretch;
+  height: 1024px;
+  position: relative;
+  background-color: rgba(0, 0, 22, 0.55);
+  display: none;
+  z-index: 4;
+}
+.mainContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 218px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gradient,
+.smartCitiesUse {
+  position: relative;
+  max-width: 100%;
+}
+.gradient {
+  height: 539px;
+  width: 1440px;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  display: none;
+}
+.smartCitiesUse {
+  width: 644px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.gradientParent {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 1309px;
+  right: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 44px 77px;
+  box-sizing: border-box;
+  min-height: 539px;
+  max-width: 100%;
+  z-index: 2;
+  text-align: left;
+  font-size: 27.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+.poweringSimplifiedNetwork {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.integratingSkyyeAi {
+  width: 1017px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.smartCitiesManagement,
+.smartCitiesManagementDescri {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 21px;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 27.5px;
+}
+.smartCitiesManagement {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 185px;
+  gap: 43px;
+  text-align: center;
+  font-size: 72px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+.gradient1 {
+  width: 1562px;
+  height: 539px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 1861px;
+  left: 1547px;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 5;
+}
+.backgroundBoltIcon {
+  position: absolute;
+  top: 0;
+  left: -2343.3px;
+  width: 5518.8px;
+  height: 4763px;
+  object-fit: contain;
+}
+.backgroundvideotech4Ezgif1Icon {
+  position: absolute;
+  top: 581px;
+  left: 0px;
+  width: 100%;
+  height: 667px;
+  object-fit: cover;
+  z-index: 3;
+}
+.footerCurve {
+  position: absolute;
+  top: 2292px;
+  left: 550px;
+  border-radius: 50%;
+  border: 0 solid #3b8dcb;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+.footerBackground {
+  width: 100%;
+  height: 3505px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameChild {
+  align-self: stretch;
+  height: 283px;
+  position: relative;
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  display: none;
+}
+.followUs,
+.logoIcon {
+  position: relative;
+  z-index: 1;
+}
+.logoIcon {
+  height: 43px;
+  width: 258.6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  cursor: pointer;
+}
+.followUs {
+  display: inline-block;
+  min-width: 71px;
+}
+.socialIconsChild {
+  align-self: stretch;
+  height: 14.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.socialIcons {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 2.9px;
+}
+.followUsBlock {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.mailIcon {
+  width: 18px;
+  height: 13.5px;
+  position: relative;
+  z-index: 1;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.5px;
+}
+.contactprivinetcom {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contactInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 18px;
+}
+.footerActions,
+.footerContact,
+.socialMedia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.footerContact {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 6px 0 1px;
+  color: #fff;
+}
+.footerActions,
+.socialMedia {
+  flex-direction: column;
+}
+.socialMedia {
+  align-self: stretch;
+  gap: 11px;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerActions {
+  width: 211px;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+}
+.footerBranding,
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.logoContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footerBranding {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.legalDividerIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.contact,
+.cookies,
+.privacyPolicy,
+.termsOfServices {
+  position: relative;
+  display: inline-block;
+  min-width: 128px;
+  z-index: 1;
+}
+.contact,
+.cookies,
+.privacyPolicy {
+  min-width: 100px;
+}
+.contact,
+.cookies {
+  min-width: 60px;
+}
+.contact {
+  min-width: 59px;
+  cursor: pointer;
+}
+.termsOfServicesParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  max-width: 100%;
+}
+.privinetAll {
+  position: relative;
+  z-index: 1;
+}
+.legalLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.legal,
+.legalDetails {
+  align-self: stretch;
+  max-width: 100%;
+}
+.legalDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.legal {
+  gap: 30px;
+  color: #fff;
+}
+.desktopTechnology,
+.legal,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  padding: 73px 0 40px;
+  box-sizing: border-box;
+  gap: 49px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 17px;
+  color: #3b8dcb;
+  font-family: "Nirmala UI";
+}
+.desktopTechnology {
+  width: 100%;
+  position: relative;
+  background-color: #000016;
+  overflow: hidden;
+  gap: 119px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .mainContent {
+    padding-bottom: 142px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .mainContent {
+    padding-bottom: 92px;
+    box-sizing: border-box;
+  }
+  .legalLinks {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .poweringSimplifiedNetwork {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .smartCitiesManagement {
+    gap: 21px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+  }
+  .logoContainer {
+    flex-wrap: wrap;
+  }
+  .termsOfServicesParent {
+    flex-wrap: wrap;
+    gap: 29px;
+  }
+  .rectangleParent {
+    gap: 24px;
+  }
+  .desktopTechnology {
+    gap: 59px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .mainContent {
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+  .smartCitiesUse {
+    font-size: 22px;
+  }
+  .poweringSimplifiedNetwork {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .integratingSkyyeAi {
+    font-size: 22px;
+  }
+  .desktopTechnology {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,321 @@
+.background1 {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background-color: #000016;
+  display: none;
+  max-width: 100%;
+}
+.skyyewave {
+  position: relative;
+  line-height: 80px;
+  z-index: 4;
+}
+.connectivityExtensionBlock {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 81px;
+  text-align: left;
+}
+.backgroundvideo2Ezgif1Icon {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 18px;
+  transform: scale(1.036);
+}
+.wrapperBackgroundvideo2Ezgif {
+  height: 1013px;
+  width: 1798.2px;
+  position: absolute;
+  margin: 0 !important;
+  right: -496.2px;
+  bottom: -596px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.extendingConnectivityBeyond {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 80px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.connectivityExtensionTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  font-size: 72px;
+}
+.imagineAWorld {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.rangeOptimizationDescription {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 61px 0 62px;
+  box-sizing: border-box;
+  font-size: 27.5px;
+}
+.rangeOptimizationDescription,
+.waveTechnologyLabel,
+.waveTechnologyLabelWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.waveTechnologyLabel {
+  width: 864px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 29px;
+}
+.waveTechnologyLabelWrapper {
+  width: 1288px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.gradient {
+  position: absolute;
+  top: 978px;
+  left: 1510px;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 91.37%);
+  width: 100%;
+  height: 100%;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.meshIntegrationDescriptionChild {
+  position: absolute;
+  top: 138px;
+  left: 617px;
+  border-radius: 50%;
+  border: 0 solid #3b8dcb;
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  z-index: 4;
+}
+.meshIntegrationDescription {
+  width: 1510px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 755px);
+}
+.extendedRange {
+  flex: 1;
+  position: relative;
+  line-height: 50px;
+  z-index: 4;
+}
+.retailAirports {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 31px 0 32px;
+}
+.advancedDesignsAnd {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 4;
+}
+.useCases {
+  width: 319px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.capacity,
+.enhancedData {
+  margin: 0;
+}
+.enhancedDataCapacityContainer {
+  flex: 1;
+  position: relative;
+  line-height: 50px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.enhancedDataCapacityWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 4px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.innovativeTechniquesBoost {
+  width: 319px;
+  position: relative;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.useCases1 {
+  width: 329px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 22px;
+  max-width: 100%;
+}
+.integration,
+.meshNetwork {
+  margin: 0;
+}
+.meshNetworkIntegrationContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 50px;
+  z-index: 4;
+}
+.skyyewaveSeamlesslyIntegrate {
+  align-self: stretch;
+  position: relative;
+  font-size: 17px;
+  z-index: 4;
+}
+.agricultureAutomation {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px;
+}
+.dataInsightsTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.frameParent,
+.rangeContainer {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 113px 76px 151px 56px;
+  position: relative;
+  gap: 91px;
+}
+.rangeContainer {
+  width: 1510px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 35px;
+}
+.gradient1 {
+  width: 1510px;
+  height: -1018px;
+  position: relative;
+  background: linear-gradient(180deg, rgba(0, 0, 22, 0), #000016 85.56%);
+  max-width: 100%;
+  z-index: 3;
+}
+.background {
+  width: 1798.2px;
+  margin: 0 !important;
+  position: absolute;
+  top: 978px;
+  right: -208.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 46px 115px 0;
+  box-sizing: border-box;
+  gap: 1059px;
+  text-align: center;
+  font-size: 44.5px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 1100px) {
+  .dataInsightsTitle {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .skyyewave {
+    font-size: 36px;
+    line-height: 64px;
+  }
+  .extendingConnectivityBeyond {
+    font-size: 58px;
+    line-height: 64px;
+  }
+  .enhancedDataCapacityContainer,
+  .extendedRange,
+  .meshNetworkIntegrationContainer {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .skyyewave {
+    font-size: 27px;
+    line-height: 48px;
+  }
+  .extendingConnectivityBeyond {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .imagineAWorld {
+    font-size: 22px;
+  }
+  .enhancedDataCapacityContainer,
+  .extendedRange,
+  .meshNetworkIntegrationContainer {
+    font-size: 27px;
+    line-height: 30px;
+  }
+}

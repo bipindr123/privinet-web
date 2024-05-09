@@ -1,0 +1,96 @@
+.decorationElementIcon,
+.frameChild {
+  align-self: stretch;
+  position: relative;
+}
+.frameChild {
+  height: 283px;
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  display: none;
+}
+.decorationElementIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.footerContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49px;
+  max-width: 100%;
+}
+.contact,
+.cookies,
+.privacyPolicy,
+.termsOfServices {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.contact,
+.cookies {
+  height: 23px;
+  display: flex;
+  align-items: center;
+}
+.legalLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+  max-width: 100%;
+}
+.privinetAll {
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}
+.legalContainer,
+.legalContainerWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.legalContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.legalContainerWrapper,
+.rectangleParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 41px 0 39px;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  background: linear-gradient(-1deg, #000016, #0f3054 98.93%);
+  flex-direction: column;
+  padding: 73px 0 40px;
+  gap: 30px;
+  text-align: left;
+  font-size: 17px;
+  color: #fff;
+  font-family: "Nirmala UI";
+}
+@media screen and (max-width: 950px) {
+  .footerContainer {
+    gap: 24px;
+  }
+  .legalContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .legalLinks {
+    flex-wrap: wrap;
+    gap: 29px;
+  }
+}
