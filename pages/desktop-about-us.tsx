@@ -10,6 +10,7 @@ import FrameComponent3 from "../components/frame-component3";
 import FrameComponent2 from "../components/frame-component2";
 import { useRouter } from "next/router";
 import styles from "./desktop-about-us.module.css";
+import MemberContainerThree from "../components/member-container-three";
 
 const DesktopAboutUs: NextPage = () => {
   const router = useRouter();
@@ -55,6 +56,7 @@ const DesktopAboutUs: NextPage = () => {
         <div className={styles.memberList}>
           <MemberContainerOne />
           <MemberContainerTwo />
+          <MemberContainerThree />
         </div>
       </section>
       <FrameComponent3 />

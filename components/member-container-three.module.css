@@ -1,76 +1,48 @@
-.portraitSuccessfulBusinessmaIcon {
-  width: 265px;
-  height: 262px;
-  position: relative;
-  border-radius: 131.02px;
-  object-fit: contain;
-  z-index: 1;
-}
-.raulJerca {
-  position: relative;
-  z-index: 1;
-}
-.multiRanDevelopmentLead {
-  position: relative;
-  font-size: 22.5px;
-  letter-spacing: -0.06em;
-  z-index: 2;
-}
-.memberInfoThree {
+.memberContainerOne,
+.memberContainerTwo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.aLuminaryIn {
-  align-self: stretch;
-  position: relative;
-  font-size: 17px;
-  letter-spacing: -0.04em;
-  z-index: 1;
-}
-.memberImageThree {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 16px;
-}
-.memberDividerThree {
-  width: 23px;
-  height: 22.8px;
-  position: relative;
-  z-index: 1;
-}
-.memberContainerThree {
-  width: 390px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 41px;
-  min-width: 390px;
   max-width: 100%;
+}
+.memberContainerTwo {
+  flex: 1;
+  gap: 64px;
+  min-width: 567px;
+}
+.memberContainerOne {
+  align-self: stretch;
+  gap: 81px;
   text-align: left;
   font-size: 27.5px;
   color: #fff;
   font-family: "Nirmala UI";
 }
+@media screen and (max-width: 1200px) {
+  .memberContainerOne {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .memberContainerTwo {
+    gap: 32px;
+  }
+}
 @media screen and (max-width: 750px) {
-  .memberContainerThree {
-    flex: 1;
+  .memberContainerTwo {
+    flex-wrap: wrap;
     min-width: 100%;
+  }
+  .memberContainerOne {
+    gap: 40px;
   }
 }
 @media screen and (max-width: 450px) {
-  .raulJerca {
-    font-size: 22px;
+  .memberContainerTwo {
+    gap: 16px;
   }
-  .multiRanDevelopmentLead {
-    font-size: 18px;
-  }
-  .memberContainerThree {
+  .memberContainerOne {
     gap: 20px;
   }
 }

@@ -22,10 +22,6 @@ export const NavBar = () => {
     router.push("/desktop-contact");
   }, [router]);
 
-  const onGroupButtonClick = useCallback(() => {
-    router.push("/desktop-technology");
-  }, [router]);
-
   const onLogoImageClick = useCallback(() => {
     router.push("/");
   }, [router]);
@@ -54,7 +50,9 @@ export const NavBar = () => {
             <div className={styles.technology} onClick={onTechnologyTextClick}>
               Technology
             </div>
-            <div className={styles.contact}>Contact</div>
+            <div className={styles.contact} onClick={onContactTextClick}>
+              Contact
+            </div>
           </nav>
         </nav>
       </header>

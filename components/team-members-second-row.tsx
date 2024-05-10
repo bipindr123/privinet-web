@@ -9,15 +9,16 @@ const MemberContainerTwo: NextPage = () => {
 
 
         <MemberCardOne
-        portraitSuccessfulBusines="/danny.png"
-        name="Daniel Nkansah"
-        title="Cloud Security Engineer"
-        description="With a vast experience in IT, Daniel's role is crucial in fortifying PriviNet's security posture, ensuring the integrity and resilience of its advanced connectivity solutions."
+        portraitSuccessfulBusines="/weifu.png"
+        name="Dr. Harrison Wang"
+        title="Director of AI"
+        description="Dr. Harrison Wang, PhD, is the esteemed Director of AI at PriviNet, where he spearheads groundbreaking initiatives in network intelligence and AI-driven automation. With an illustrious background in robotics, AI, and software engineering, Dr. Wang brings extensive experience from his time from autonomous vehicles, aerospace, and internet-services industry. He holds a PhD from Dartmouth College, with specialized expertise in deep learning and robotics. At PriviNet, Dr. Wang is set to drive transformative advancements, leveraging AI to revolutionize connectivity solutions across various industries."
         propMinWidth="272px"
         propFlex="1"
         propDisplay="inline-block"
         propMinWidth1="114px"
       />
+      
       <MemberCardOne
         portraitSuccessfulBusines="/bipin.png"
         name="Bipin Dhoddamane Ravi"

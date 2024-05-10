@@ -10,7 +10,7 @@
 .navbar {
   position: absolute;
   width: 100%;
-  padding: 36px;
+  padding: 2.5em;
 }
 
 .fullpage {
@@ -66,7 +66,7 @@
   /* Connectivity for Remote & Challenging Environments */
 
   position: absolute;
-  width: 768px;
+  width: 80%;
   height: 285px;
   left: 30px;
   top: calc(50% - 285px / 2 - 45px);
@@ -74,7 +74,7 @@
   font-family: "Nirmala UI";
   font-style: normal;
   font-weight: 700;
-  font-size: 72.0086px;
+  font-size: 5em;
   line-height: 80px;
   /* or 111% */
   display: flex;
