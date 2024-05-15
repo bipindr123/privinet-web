@@ -62,7 +62,7 @@ const FrameComponent1: NextPage<FrameComponent1Type> = ({
                   />
                 </div>
                 <div className={styles.contactprivinetcom}>
-                  Contact@privinet.com
+                  brad@privinet.net
                 </div>
               </div>
             </div>

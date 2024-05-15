@@ -12,6 +12,13 @@
 }
 
 body {
+  /* left: 0;
+  right: 0;
+  justify-content: center;
+  margin: 0 auto;
+  line-height: normal;
+  background-color: #000016; */
   margin: 0;
   line-height: normal;
+  background-color: #000016;
 }

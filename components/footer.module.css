@@ -1,7 +1,7 @@
 .blackTranslucid,
 .gradient {
   width: 100%;
-  height: calc(100% - 139px);
+  height: 100%;
   position: absolute;
   margin: 0 !important;
   top: 0;
@@ -131,9 +131,11 @@
 .backvideo1Ezgif1Icon {
   position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
   width: 100%;
-  object-fit: cover;
+  object-fit: fit;
 }
 .homepageHeaderChild,
 .logoIcon {

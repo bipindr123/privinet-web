@@ -1,0 +1,19 @@
+.test
+{
+    position: relative;
+    background-color: aqua;
+}
+
+.test2
+{
+    position: relative;
+    background-color: red;
+}
+
+.background1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+
+}

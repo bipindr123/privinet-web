@@ -102,7 +102,7 @@ const TrialInformation: NextPage = () => {
                       />
                     </div>
                     <div className="relative whitespace-nowrap z-[1]">
-                      Contact@privinet.com
+                      brad@privinet.net
                     </div>
                   </div>
                 </div>

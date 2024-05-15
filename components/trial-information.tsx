@@ -104,7 +104,7 @@ const TrialInformation: NextPage = () => {
                       />
                     </div>
                     <div className={styles.contactprivinetcom}>
-                      Contact@privinet.com
+                      brad@privinet.net
                     </div>
                   </div>
                 </div>

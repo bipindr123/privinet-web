@@ -122,9 +122,9 @@
   height: 100%;
   top: 0;
   bottom: 0;
-  left: -188.9px;
+  /* left: -188.9px; */
   max-height: 100%;
-  width: 1817.8px;
+  width: 100%;
   object-fit: cover;
   z-index: 5;
 }

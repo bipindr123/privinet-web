@@ -292,7 +292,7 @@ const FullScreenImageTextComponent: React.FC<Props> = ({
                         />
                       </div>
                       <div className={styles.contactprivinetcom}>
-                        Contact@privinet.com
+                        brad@privinet.net
                       </div>
                     </div>
                   </div>

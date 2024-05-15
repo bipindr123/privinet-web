@@ -5,13 +5,14 @@
   background-color: #000016;
   display: none;
   max-width: 100%;
+
 }
 .backgroundvideo2Ezgif1Icon {
   position: absolute;
-  top: 11px;
-  left: -150px;
-  width: 1798.2px;
-  height: 1013px;
+  /* top: 11px; */
+  /* left: -150px; */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: 1;
 }
@@ -25,26 +26,42 @@
   transform: rotate(-180deg);
   transform-origin: 0 0;
 }
+
+.screen2grid1 {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ justify-content: center;
+ margin: 1.5rem;
+ width: 50%;
+ z-index: 5;
+}
+
+.screen2grid2
+{
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ justify-content: center;
+ /* margin: 1.5rem; */
+ width: 50%;
+ z-index: 5;
+
+}
 .ourMissionIs,
 .unlockingPotentialThrough {
-  position: absolute;
-  top: 538px;
-  left: 40px;
-  font-size: 27.5px;
-  display: flex;
-  align-items: center;
-  width: 690px;
-  z-index: 5;
+  font-size: 32px;
+  width: 695px;
+  
 }
 .unlockingPotentialThrough {
-  margin: 0;
-  top: 271px;
-  left: 35px;
+  position: relative;
   font-size: 72px;
   line-height: 80px;
   font-weight: 700;
   font-family: inherit;
   width: 695px;
+  display: block;
 }
 .applicationsList {
   position: absolute;
@@ -117,25 +134,40 @@
   line-height: 50px;
   z-index: 5;
 }
+
+.applicationlistpoints
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  justify-content: center;
+
+}
+.logisticsheading
+{
+  align-self: center;
+  padding-bottom: 50px;
+}
+
 .applicationsList2 {
-  position: absolute;
-  top: 642px;
-  left: 820px;
   border-radius: 50%;
   background-color: #3b8dcb;
   width: 26px;
   height: 26px;
   z-index: 5;
+  position: relative;
+  top: 15px;
 }
+
 .realTimeAssetTracking {
-  position: absolute;
-  top: 750px;
-  left: 863px;
+  position: relative;
   font-size: 17px;
-  display: flex;
-  align-items: center;
   width: 481px;
   z-index: 5;
+  left: 50px;
+
 }
 .gradient1,
 .spacerElement {
@@ -156,11 +188,11 @@
   z-index: 3;
 }
 .logisticsSupply {
-  position: absolute;
-  top: 626px;
-  left: 863px;
+  position: relative;
+  display: flex;
   line-height: 50px;
   z-index: 5;
+  gap: 20px;
 }
 .applicationOptions {
   position: absolute;
@@ -168,10 +200,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-}
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  }
 .applicationBackground {
-  height: 1024px;
-  width: 1440px;
+  height: 100%;
+  width: 100%;
   position: relative;
   max-width: 100%;
 }
@@ -179,10 +216,8 @@
 
 .gradientbottom {
   position: absolute;
-  top: 11px;
-  left: -150px;
-  width: 1798.2px;
-  height: 1013px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   z-index: 2;
   background: linear-gradient(180deg, rgba(0, 0, 22, 0) 39.31%, #000016 96.41%);
@@ -190,10 +225,8 @@
 
 .gradienttop {
   position: absolute;
-  top: 11px;
-  left: -150px;
-  width: 1798.2px;
-  height: 1013px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   z-index: 2;
   background: linear-gradient(180deg, rgba(0, 0, 22, 0) 39.31%, #000016 96.41%);
@@ -204,11 +237,12 @@
   position: absolute;
   top: 0;
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 150px;
+  /* padding: 0 150px; */
   box-sizing: border-box;
   z-index: 4;
   text-align: left;
