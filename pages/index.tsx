@@ -7,6 +7,7 @@ import GroupComponent from "../components/group-component";
 import FrameComponent1 from "../components/frame-component1";
 import FrameComponent from "../components/frame-component";
 import styles from "./index.module.css";
+import FinalFooter from "../components/finalFooter";
 
 const DesktopHome: NextPage = () => {
   const router = useRouter();
@@ -38,27 +39,27 @@ const DesktopHome: NextPage = () => {
                 Universal Connectivity Network (UCN) is designed for the scale,
                 resilience, and adaptability demanded by the Internet of Things.
               </div>
+              <Button
+                className={styles.frameChild}
+                endIcon={<img width="5px" height="10px" src="/vector-1.svg" />}
+                disableElevation={true}
+                variant="contained"
+                sx={{
+                  textTransform: "none",
+                  color: "#fff",
+                  fontSize: "17",
+                  background: "#3b8dcb",
+                  borderRadius: "41px",
+                  "&:hover": { background: "#3b8dcb" },
+                  width: 198,
+                  height: 52,
+                }}
+                onClick={onGroupButtonClick}
+              >
+                Learn More
+              </Button>
             </div>
           </div>
-          <Button
-            className={styles.frameChild}
-            endIcon={<img width="5px" height="10px" src="/vector-1.svg" />}
-            disableElevation={true}
-            variant="contained"
-            sx={{
-              textTransform: "none",
-              color: "#fff",
-              fontSize: "17",
-              background: "#3b8dcb",
-              borderRadius: "41px",
-              "&:hover": { background: "#3b8dcb" },
-              width: 198,
-              height: 52,
-            }}
-            onClick={onGroupButtonClick}
-          >
-            Learn More
-          </Button>
         </div>
       </div>
       <GroupComponent />
@@ -70,11 +71,7 @@ const DesktopHome: NextPage = () => {
         <img className={styles.backgroundIcon} alt="" src="/homepage2.gif" />
         <div className={styles.frameItem} />
       </section>
-      <footer className={styles.rectangleParent}>
-        <div className={styles.frameInner} />
-        <FrameComponent1 />
-        <FrameComponent />
-      </footer>
+      <FinalFooter />
     </div>
   );
 };

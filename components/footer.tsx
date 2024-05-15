@@ -32,7 +32,7 @@ const Footer: NextPage = () => {
     <section className={styles.footer}>
       <NavBar />
       
-      <div className={styles.blackTranslucid} />
+      {/* <div className={styles.blackTranslucid} /> */}
       <div className={styles.gradient} />
       <div className={styles.frameParent}>
 
@@ -41,10 +41,10 @@ const Footer: NextPage = () => {
           <div className={styles.frameWrapper}>
             <div className={styles.pioneeringTheFutureOfConneParent}>
               <div className={styles.homepageHeader}>
-                <img
+                <video
                   className={styles.backvideo1Ezgif1Icon}
-                  alt=""
-                  src="/homepage.gif"
+                  autoPlay loop muted
+                  src="/homepage-vid.mp4"
                 />
               </div>
               <h1 className={styles.pioneeringTheFutureContainer}>
